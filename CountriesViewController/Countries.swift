@@ -14,7 +14,7 @@ open class Countries {
     
     
     /// Countries of the world
-    open fileprivate(set) static var countries: [Country] = {
+    public fileprivate(set) static var countries: [Country] = {
         
         var countries: [Country] = []
         
